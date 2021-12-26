@@ -3,6 +3,7 @@ $(function () {
   // Get some basic page data.
   // Check if you are inside the links page.
   var InsidePage = !!window.location.href.split("/")[3];
+  console.log("vanakam da mapula thanjaur laruthu");
   var PageName = null;
   if (InsidePage) {
     // Get the pageName.
