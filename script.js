@@ -5,6 +5,7 @@ $(function () {
   var InsidePage = !!window.location.href.split("/")[3];
   console.log("vanakam da mapula thanjaur laruthu");
   var PageName = null;
+  console.log("vanakam da mapula thanjaur laruthu");
   if (InsidePage) {
     // Get the pageName.
     PageName = window.location.href.split("/")[3];
